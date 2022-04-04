@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+C:\Users\Emanuele-PC\Desktop\project-mm-beta>git push heroku master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 505 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> App not compatible with buildpack: https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/python.tgz
+remote:        More info: https://devcenter.heroku.com/articles/buildpacks#detection-failure
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to project-mm-beta.
+remote:
+To https://git.heroku.com/project-mm-beta.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/project-mm-beta.git'
